@@ -1,12 +1,17 @@
 idgen
 =====
 idgen is a simple library for
+
  * generating "valid" document numbers for regulatory purposes
  * validating document numbers
+
 valid in this context means:
+
  * the IDs are in a certain format, checked via regex
  * the checksum calculations of the IDs are correct
+
 valid does NOT mean:
+
  * the numbers actually exist
  * the numbers are accepted by the regulator
 
