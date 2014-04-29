@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getNIEDigits"
+			],
+			[
+				"start",
+				"startLetter"
+			],
+			[
 				"a",
 				"application"
 			],
@@ -16,10 +24,6 @@
 				"function"
 			],
 			[
-				"get",
-				"getCurrentUrl"
-			],
-			[
 				"log",
 				"logoutLoginRecheck"
 			]
@@ -28,7 +32,7 @@
 	"buffers":
 	[
 	],
-	"build_system": "",
+	"build_system": "Packages/User/NPM.sublime-build",
 	"command_palette":
 	{
 		"height": 0.0,
@@ -55,8 +59,16 @@
 	},
 	"file_history":
 	[
-		"/D/svn/M2/Protractor/reports/14-04-28 - 22-49-52 - chrome/screenshots/22.49.54.252 - fills the login Login.json",
+		"/D/git/idgenerator/index.js",
+		"/D/svn/M2/Protractor/package.json",
+		"/D/svn/M2/Protractor/npm-debug.log",
+		"/D/git/idgenerator/package.json",
+		"/D/git/idgenerator/spec/NieNifSpec.js",
+		"/D/git/idgenerator/lib/randhelper.js",
+		"/D/git/idgenerator/specs/DniSpec.js",
+		"/C/Users/ihayden/AppData/Roaming/Sublime Text 3/Packages/User/NPM.sublime-build",
 		"/D/git/posapi-node/package.json",
+		"/D/svn/M2/Protractor/reports/14-04-28 - 22-49-52 - chrome/screenshots/22.49.54.252 - fills the login Login.json",
 		"/D/git/posapi-node/lib/RequestHelper.js",
 		"/D/git/posapi-node/spec/RequestHelperSpec.js",
 		"/D/git/posapi-node/index.js",
@@ -73,7 +85,6 @@
 		"/D/svn/M2/Protractor/Testcases/Login/BonusLogin.js",
 		"/D/svn/M2/Protractor/start.js",
 		"/D/svn/M2/Protractor/Modules/StringHelper.js",
-		"/D/svn/M2/Protractor/package.json",
 		"/D/svn/M2/Protractor/Modules/users.js",
 		"/D/svn/M2/Protractor/PageObjects/MainHeader.js",
 		"/D/svn/M2/Protractor/PageObjects/MainMenu.js",
@@ -96,6 +107,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"dataGenerator",
+			"idgenerator",
 			"failureCB",
 			"successCB",
 			"Authentication",
@@ -159,6 +172,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 316.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0

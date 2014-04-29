@@ -1,5 +1,5 @@
 {
-  "name": "idgenerator",
+  "name": "idgen",
   "version": "0.1.0",
   "description": "generator and validator for identity numbers (NIE/NIF)",
   "main": "index.js",
