@@ -1,0 +1,21 @@
+{
+  "name": "idgenerator",
+  "version": "0.1.0",
+  "description": "generator and validator for identity numbers (NIE/NIF)",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine-node spec/ --captureExceptions"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://vie.git.bwinparty.corp/immanuel.hayden/idgenerator.git"
+  },
+  "keywords": [
+    "nie",
+    "nif",
+    "generator",
+    "validator"
+  ],
+  "author": "Immanuel Hayden",
+  "license": "MIT"
+}
