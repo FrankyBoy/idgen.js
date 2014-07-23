@@ -1,11 +1,11 @@
-var randhelper = require('./lib/randhelper')
+var randhelper = require('./lib/randhelper');
 
 var idgen = module.exports = {};
 
 var checkSum = function(number) {
 	var checkSumLetters = 'TRWAGMYFPDXBNJZSQVHLCKE';
 	return checkSumLetters.charAt(number % 23 );
-}
+};
 
 var getNIEDigits = function(startLetter, digits) {
 	switch (startLetter) {
@@ -20,7 +20,7 @@ var getNIEDigits = function(startLetter, digits) {
 	        break;
 	}
 	return parseInt(digits, 10);
-}
+};
 
 idgen.generateDNI = idgen.generateNIF = function() {
 	var baseNumber = randhelper.generateDigits(8);
@@ -38,7 +38,7 @@ idgen.isValidDNI = idgen.isValidNIF = function(dni) {
 	var calculated = checkSum(parseInt(numbers, 10));
 
     return letter == calculated;
-}
+};
 
 idgen.generateNIE = function() {
 	var startLetters = 'XYZ';
@@ -61,4 +61,4 @@ idgen.isValidNIE = function(dni) {
 
 	var calculated = checkSum(getNIEDigits(startLetter, numbers));
     return letter == calculated;
-}
+};
