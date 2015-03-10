@@ -1,5 +1,5 @@
 {
-  "name": "bwin-idgen",
+  "name": "idgen.js",
   "version": "0.1.0",
   "description": "generator and validator for identity numbers (NIE/NIF)",
   "main": "index.js",
@@ -8,14 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://vie.git.bwinparty.corp/immanuel.hayden/idgenerator.git"
+    "url": "https://github.com/FrankyBoy/idgen.js.git"
   },
   "keywords": [
     "nie",
     "nif",
+	"dni",
     "generator",
     "validator"
   ],
   "author": "Immanuel Hayden",
-  "license": "MIT"
+  "license": "Apache-2.0"
 }
